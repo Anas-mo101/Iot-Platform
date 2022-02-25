@@ -11,7 +11,7 @@ const Device = require('./models/device');
 const Admin = require('./models/admin');
 const bcrypt = require('bcrypt');
 
-mongoose.connect(`mongodb+srv://anmoiotadmin:anmoiotadmin@clusteriot.h9pwp.mongodb.net/iot?retryWrites=true&w=majority`, {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect(`mongodb+srv://xxxxxx:xxxxxx@clusteriot.h9pwp.mongodb.net/iot?retryWrites=true&w=majority`, {useNewUrlParser: true, useUnifiedTopology: true})
 .then(() => {
     console.log('Database connection successful');
     server.listen(port, () => console.info(`listening on port ${port}`));
